@@ -1,0 +1,12 @@
+# Private/raw test evidence
+test-records/**/raw/
+test-records/**/*-private.*
+
+# Published screenshots should be reviewed before committing
+assets/**/raw/
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+
