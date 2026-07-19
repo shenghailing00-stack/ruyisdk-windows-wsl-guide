@@ -6,9 +6,17 @@ param(
     [string]$Visibility = 'public'
 )
 
-$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Continue'
 $repoRoot = Split-Path -Parent $PSScriptRoot
 Set-Location $repoRoot
+
+# Trust only this exact repository for this PowerShell process and child
+# processes (including gh). This does not modify global Git configuration.
+$existingGitConfigCount = 0
+[void][int]::TryParse($env:GIT_CONFIG_COUNT, [ref]$existingGitConfigCount)
+Set-Item -Path "Env:GIT_CONFIG_KEY_$existingGitConfigCount" -Value 'safe.directory'
+Set-Item -Path "Env:GIT_CONFIG_VALUE_$existingGitConfigCount" -Value $repoRoot
+$env:GIT_CONFIG_COUNT = [string]($existingGitConfigCount + 1)
 
 if (-not (Get-Command git.exe -ErrorAction SilentlyContinue)) {
     throw 'git.exe was not found. Install Git for Windows first.'

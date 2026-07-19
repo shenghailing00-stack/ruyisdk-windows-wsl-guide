@@ -5,8 +5,17 @@ test-records/**/*-private.*
 # Published screenshots should be reviewed before committing
 assets/**/raw/
 
+# Local recording clips and draft/demo artwork are not publication files
+video-assets/*.mp4
+video-assets/R*.*
+video-assets/11-episode01-outro.png
+assets/01-install-wsl2/0[3-9]-*.png
+assets/01-install-wsl2/10-*.png
+test-records/episode-01/*-preflight/
+
 # Editor and OS noise
 .DS_Store
 Thumbs.db
 .vscode/
-
+assets/01-install-wsl2/0[3-9]_*.png
+assets/01-install-wsl2/10_*.png

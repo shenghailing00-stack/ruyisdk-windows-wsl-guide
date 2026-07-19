@@ -243,7 +243,7 @@ function Invoke-Preflight {
 
     $public = Write-PublicReport -Record $record -CurrentMode 'Preflight' -Windows $windows -Virtualization $virtualization
     Write-Host "Public report: $public" -ForegroundColor Green
-    Write-Host 'Send PUBLIC-REPORT.md to Codex. Do not send the raw folder.' -ForegroundColor Cyan
+    Write-Host 'Keep PUBLIC-REPORT.md for review. Do not publish the raw folder.' -ForegroundColor Cyan
 
     if ($OpenFolder) {
         Start-Process explorer.exe -ArgumentList ('"{0}"' -f $record.Root)
@@ -252,7 +252,7 @@ function Invoke-Preflight {
 
 function Invoke-Install {
     if (-not (Test-IsAdministrator)) {
-        Write-Host 'Administrator rights are required. Opening a UAC prompt...' -ForegroundColor Yellow
+        Write-Host 'Administrator rights are required. Opening a UAC confirmation window...' -ForegroundColor Yellow
         $arguments = @(
             '-NoProfile',
             '-ExecutionPolicy', 'Bypass',

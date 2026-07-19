@@ -52,6 +52,6 @@ DNS 和 HTTPS 实测，再决定是否需要改网络配置。”
 为后续使用 RuyiSDK 包管理器、RISC-V 工具链和 QEMU 做准备。视频明确区分
 “新电脑安装步骤”和“既有环境验证”，并公开记录 localhost 代理提示。
 
-配套仓库：`<GitHub URL>`  
-图文教程：`<Forum/GitHub URL>`  
+配套仓库：`https://github.com/shenghailing00-stack/ruyisdk-windows-wsl-guide`
+图文教程：`https://github.com/shenghailing00-stack/ruyisdk-windows-wsl-guide/blob/master/docs/01-install-wsl2.md`
 环境与命令以视频发布日期的实测结果为准。

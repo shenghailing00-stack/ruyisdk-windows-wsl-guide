@@ -6,7 +6,7 @@ echo This does not install WSL, change Windows features, or restart the PC.
 echo.
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0scripts\01-wsl-helper.ps1" -Mode Preflight -OpenFolder
 echo.
-echo If a result folder opened, send PUBLIC-REPORT.md to Codex.
+echo If a result folder opened, keep PUBLIC-REPORT.md for review.
 echo Do not send the raw folder.
 pause
 endlocal
