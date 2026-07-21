@@ -1,32 +1,21 @@
-# Windows + WSL 2 下 RuyiSDK 包管理器新手教程
+# Windows + WSL 2 下的 RuyiSDK 新手教程
 
-这是一套面向 Windows 10/11 用户的 RuyiSDK 实操教程。主线从 WSL 2
-环境搭建开始，逐步覆盖 Ruyi 包管理器、虚拟环境、RISC-V 工具链、QEMU、
-VS Code 插件以及问题反馈。
+这套教程面向使用 Windows 10/11、此前没有接触过 Linux 的读者。内容从 WSL 2 和 Ubuntu 环境准备开始，逐步介绍 Ruyi 包管理器、虚拟环境、RISC-V 工具链、QEMU 和 VS Code。
 
 ## 当前进度
 
 | 单元 | 内容 | 状态 |
 |---|---|---|
-| 01 | 在 Windows 10/11 安装并使用 WSL 2 与 Ubuntu | 图文与视频完成，待审核发布 |
+| 01 | 安装 WSL 2 与 Ubuntu 24.04 | 图文教程已完成，视频待审核 |
 
-## 第 01 节快速入口
+## 第 01 节
 
-- Windows 只读预检：双击 `START-01-PREFLIGHT.cmd`
-- Ubuntu 24.04 一键验证：双击 `START-01-VERIFY.cmd`
-- 一键打开三个截图证据窗口：双击 `START-01-EVIDENCE.cmd`
-- 将修订内容更新到现有 GitHub 仓库：双击 `START-01-UPDATE-GITHUB.cmd`
-- [第 01 节制作与发布手册](tasks/01-runbook.md)
-- [图文教程](docs/01-install-wsl2.md)
+- [图文教程：安装 WSL 2 与 Ubuntu 24.04](docs/01-install-wsl2.md)
 - [视频脚本与字幕](video-scripts/)
-- [视频封面（PNG 与 SVG）](video-assets/)
-- [截图清单](assets/01-install-wsl2/README.md)
-- [实测环境记录](test-records/environment-baseline.md)
-- [发布与交叉宣发手册](PUBLISHING.md)
-- [论坛、视频与社媒文案](publishing/)
+- [配套截图](assets/01-install-wsl2/README.md)
 
-## 实测说明
+第 01 节先检查电脑上的 WSL 状态；如果尚未安装，则单独安装 WSL 并重启。随后通过 WSL 安装 Ubuntu 24.04，完成首次启动、版本验证和几项基本操作。完成这些步骤后，就可以继续配置 Ubuntu 网络并安装 RuyiSDK。
 
-教程中的 Windows/WSL 输出均来自真实 Windows + WSL 2 环境。第 01 节测试机
-在录制前已经安装 WSL，因此教程明确区分“新电脑安装步骤”和“既有环境验证”，
-不会把已有环境描述成一次全新安装。
+## 说明
+
+不同 Windows 和 WSL 版本显示的具体版本号可能不同。只要命令能够正常执行，`Ubuntu-24.04` 已安装且 `VERSION` 为 `2`，就可以继续后面的教程。

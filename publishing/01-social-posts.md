@@ -1,22 +1,19 @@
-# 第 01 节社媒转发文案
+# 第 01 节社媒文案
 
 ## 微信群 / QQ 群
 
-RuyiSDK Windows + WSL 新手教程第 01 节完成啦：从 Windows 11 的 WSL 2
-环境检查，到 Ubuntu 24.04 版本、内核和架构验收都做了真实记录。测试机本来
-已有 WSL，所以文档明确区分了“新电脑安装”和“既有环境验证”，也记录了
-localhost 代理提示。仓库：https://github.com/shenghailing00-stack/ruyisdk-windows-wsl-guide
-视频与论坛链接审核发布后补充。
+整理了一篇面向 Windows 新手的 RuyiSDK 环境准备教程：先检查和安装 WSL 2，再安装 Ubuntu 24.04，并完成首次启动、版本验证和基本 Linux 操作。后续会在这个环境中继续安装 RuyiSDK、工具链和 QEMU。
+
+图文教程：https://github.com/shenghailing00-stack/ruyisdk-windows-wsl-guide/blob/master/docs/01-install-wsl2.md
 
 ## B 站动态
 
-Windows 用户想上手 RuyiSDK，第一步先把 WSL 2 + Ubuntu 24.04 环境验收
-清楚。本期包含自动预检脚本、真实版本证据和常见问题；不补造安装截图，遇到
-localhost 代理警告也如实保留。配套仓库：
-https://github.com/shenghailing00-stack/ruyisdk-windows-wsl-guide
+Windows 下使用 RuyiSDK，第一步是准备好 WSL 2 和 Ubuntu。本期从 `wsl --version` 检查开始，依次完成 WSL 安装、Ubuntu 24.04 安装、首次启动和环境验证，也说明了 PowerShell 与 Ubuntu 终端的区别。
+
+配套教程：https://github.com/shenghailing00-stack/ruyisdk-windows-wsl-guide
 
 ## 短文案
 
-RuyiSDK Windows/WSL 教程 01：安装并验证 WSL 2 + Ubuntu 24.04。真实环境、
-检查脚本、版本证据和代理提示一次讲清。仓库：
-https://github.com/shenghailing00-stack/ruyisdk-windows-wsl-guide
+RuyiSDK Windows/WSL 教程 01：从检查 WSL 开始，安装 Ubuntu 24.04，并完成首次启动和环境验证。
+
+教程：https://github.com/shenghailing00-stack/ruyisdk-windows-wsl-guide
