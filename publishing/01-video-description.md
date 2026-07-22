@@ -22,7 +22,7 @@
 
 完整图文：https://github.com/shenghailing00-stack/ruyisdk-windows-wsl-guide/blob/master/docs/01-install-wsl2.md
 
-下一期将检查 Ubuntu 的网络环境，并安装、验证 RuyiSDK 包管理器。
+下一期将初始化 Ubuntu，检查软件源和网络，并安装后续操作需要的基础工具。
 
 ## 章节
 

@@ -2,7 +2,7 @@
 
 ## 微信群 / QQ 群
 
-整理了一篇面向 Windows 新手的 RuyiSDK 环境准备教程：先检查和安装 WSL 2，再安装 Ubuntu 24.04，并完成首次启动、版本验证和基本 Linux 操作。后续会在这个环境中继续安装 RuyiSDK、工具链和 QEMU。
+整理了一篇面向 Windows 新手的 RuyiSDK 环境准备教程：先检查和安装 WSL 2，再安装 Ubuntu 24.04，并完成首次启动、版本验证和基本 Linux 操作。下一期继续配置 Ubuntu 的软件源、网络和基础工具。
 
 图文教程：https://github.com/shenghailing00-stack/ruyisdk-windows-wsl-guide/blob/master/docs/01-install-wsl2.md
 

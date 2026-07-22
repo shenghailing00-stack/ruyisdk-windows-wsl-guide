@@ -258,7 +258,7 @@ wsl -d Ubuntu-24.04
 
 ## 下一节
 
-下一节将检查 Ubuntu 的 DNS 和 HTTPS 连接，并安装、验证 RuyiSDK 包管理器。
+[下一节：初始化 Ubuntu，检查软件源、网络与基础工具](02-prepare-ubuntu.md)
 
 ## 参考资料
 

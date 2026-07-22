@@ -6,16 +6,18 @@
 
 | 单元 | 内容 | 状态 |
 |---|---|---|
-| 01 | 安装 WSL 2 与 Ubuntu 24.04 | 图文教程已完成，视频待审核 |
+| 01 | 安装 WSL 2 与 Ubuntu 24.04 | 图文教程已完成，视频修改中 |
+| 02 | 初始化 Ubuntu：软件源、网络与基础工具 | 图文教程已完成 |
+| 03 | 安装 RuyiSDK 包管理器并完成首次验证 | 图文教程已完成 |
 
-## 第 01 节
+## 教程目录
 
-- [图文教程：安装 WSL 2 与 Ubuntu 24.04](docs/01-install-wsl2.md)
-- [视频脚本与字幕](video-scripts/)
-- [配套截图](assets/01-install-wsl2/README.md)
+1. [安装 WSL 2 与 Ubuntu 24.04](docs/01-install-wsl2.md)
+2. [初始化 Ubuntu：软件源、网络与基础工具](docs/02-prepare-ubuntu.md)
+3. [安装 RuyiSDK 包管理器并完成首次验证](docs/03-install-ruyi.md)
 
-第 01 节先检查电脑上的 WSL 状态；如果尚未安装，则单独安装 WSL 并重启。随后通过 WSL 安装 Ubuntu 24.04，完成首次启动、版本验证和几项基本操作。完成这些步骤后，就可以继续配置 Ubuntu 网络并安装 RuyiSDK。
+前三节从 Windows 环境准备开始，依次完成 Ubuntu 初始化和 Ruyi 包管理器安装。后续将继续介绍软件包的查询与安装、虚拟环境、RISC-V 工具链、QEMU 和 VS Code。
 
 ## 说明
 
-不同 Windows 和 WSL 版本显示的具体版本号可能不同。只要命令能够正常执行，`Ubuntu-24.04` 已安装且 `VERSION` 为 `2`，就可以继续后面的教程。
+不同 Windows、WSL 和 Ruyi 版本显示的具体版本号可能不同。教程中的版本号和输出用于说明检查方法，不要求与截图完全一致。

@@ -145,4 +145,4 @@ wsl --install --web-download -d Ubuntu-24.04
 完整图文教程和配套命令：
 https://github.com/shenghailing00-stack/ruyisdk-windows-wsl-guide
 
-下一节将检查 Ubuntu 网络，并安装、验证 RuyiSDK 包管理器。
+下一节将初始化 Ubuntu，检查软件源和网络，并安装后续操作需要的基础工具。
