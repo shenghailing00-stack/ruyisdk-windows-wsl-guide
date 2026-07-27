@@ -87,4 +87,4 @@ ruyi update
 完整图文教程：
 https://github.com/shenghailing00-stack/ruyisdk-windows-wsl-guide/blob/master/docs/03-install-ruyi.md
 
-下一节将继续介绍 Ruyi 软件包的查询、安装、卸载和本地缓存。
+下一节：[查询、安装与管理 Ruyi 软件包](https://github.com/shenghailing00-stack/ruyisdk-windows-wsl-guide/blob/master/docs/04-manage-packages.md)

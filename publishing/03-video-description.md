@@ -25,6 +25,8 @@
 
 下一期将继续介绍 Ruyi 软件包的查询、安装、卸载和本地缓存。
 
+第 04 期图文：https://github.com/shenghailing00-stack/ruyisdk-windows-wsl-guide/blob/master/docs/04-manage-packages.md
+
 ## 章节
 
 视频完成后，根据最终画面填写时间点。
