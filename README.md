@@ -11,8 +11,8 @@
 | 03 | 安装 RuyiSDK 包管理器并完成首次验证 | 图文与视频已完成并发布 |
 | 04 | 查询、安装与管理 Ruyi 软件包 | 图文教程已完成 |
 | 05 | 创建并使用 Ruyi 虚拟环境 | 图文教程已完成 |
-| 06 | 交叉编译第一个 RISC-V 程序 | 计划中 |
-| 07 | 使用 QEMU 运行 RISC-V 程序 | 计划中 |
+| 06 | 交叉编译第一个 RISC-V 程序 | 图文教程已完成 |
+| 07 | 使用 QEMU 运行 RISC-V 程序 | 图文教程已完成 |
 | 08 | 使用 VS Code Remote - WSL 开发 | 计划中 |
 | 09 | 通过 SSH 连接 RISC-V 开发板 | 计划中 |
 
@@ -23,12 +23,12 @@
 3. [安装 RuyiSDK 包管理器并完成首次验证](docs/03-install-ruyi.md)
 4. [查询、安装与管理 Ruyi 软件包](docs/04-manage-packages.md)
 5. [创建并使用 Ruyi 虚拟环境](docs/05-create-venv.md)
-6. 交叉编译第一个 RISC-V 程序
-7. 使用 QEMU 运行 RISC-V 程序
+6. [交叉编译第一个 RISC-V 程序](docs/06-cross-compile-hello.md)
+7. [使用 QEMU 运行 RISC-V 程序](docs/07-run-with-qemu.md)
 8. 使用 VS Code Remote - WSL 开发
 9. 通过 SSH 连接 RISC-V 开发板
 
-前五节从 Windows 环境准备开始，依次完成 Ubuntu 初始化、Ruyi 包管理器安装、工具链与模拟器安装，以及 Ruyi 虚拟环境创建。后续将在这个环境中交叉编译并运行 RISC-V 程序，再接入 VS Code 和开发板。
+前七节从 Windows 环境准备开始，依次完成 Ubuntu 初始化、Ruyi 包管理器安装、工具链与模拟器安装、Ruyi 虚拟环境创建，以及第一个 RISC-V 程序的交叉编译与 QEMU 运行。后续将在 VS Code 中复现同一开发流程，再连接实际的 RISC-V 开发板。
 
 ## 说明
 

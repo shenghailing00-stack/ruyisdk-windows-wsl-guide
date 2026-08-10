@@ -314,7 +314,7 @@ command -v riscv64-unknown-linux-gnu-gcc
 
 ## 下一节
 
-下一节将在这个虚拟环境中编写并交叉编译第一个 RISC-V Hello World 程序。
+[下一节：交叉编译第一个 RISC-V 程序](06-cross-compile-hello.md)
 
 ## 参考资料
 
