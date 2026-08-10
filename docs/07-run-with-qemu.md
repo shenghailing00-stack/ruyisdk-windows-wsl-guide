@@ -243,7 +243,7 @@ echo $?
 
 ## 下一节
 
-下一节将使用 VS Code Remote - WSL 打开同一个项目，在图形化编辑器中完成编辑、编译和运行。
+[下一节：使用 VS Code Remote - WSL 开发](08-vscode-wsl.md)
 
 ## 参考资料
 
