@@ -153,33 +153,37 @@ Ruyi 将不同版本的工具链保存在自己的数据目录中，不会把它
 
 ## 9. 查看缓存和安装位置
 
-软件包索引通常位于：
-
-```text
-~/.cache/ruyi/packages-index/
+Ruyi 的缓存根目录通常位于：
 ```
+~/.cache/ruyi/
+```
+不同 Ruyi 版本中，软件源和索引相关缓存的具体子目录名称可能有所不同。可以先运行：
+```
+ls -la ~/.cache/ruyi
+```
+查看当前环境中的实际目录。
 
-下载的压缩包通常位于：
-
-```text
+在本文实测的 Ruyi 环境中，软件源和索引相关缓存位于：
+```
+~/.cache/ruyi/repos/
+```
+下载的软件包压缩文件通常位于：
+```
 ~/.cache/ruyi/distfiles/
 ```
-
 解压后的二进制软件包通常位于：
-
-```text
+```
 ~/.local/share/ruyi/binaries/当前主机架构/
 ```
-
-可以查看这些目录占用的空间：
-
-```bash
-du -sh ~/.cache/ruyi/packages-index
+例如，可以查看这些目录占用的空间：
+```
+du -sh ~/.cache/ruyi/repos
 du -sh ~/.cache/ruyi/distfiles
 du -sh ~/.local/share/ruyi/binaries/$(uname -m)
 ```
+如果你的 ~/.cache/ruyi/ 中没有 repos，请以 ls -la ~/.cache/ruyi 的实际结果为准，不要手动创建目录。
 
-目录大小会随版本和已安装软件包变化，不需要与教程相同。
+目录大小会随 Ruyi 版本、缓存内容和已安装软件包变化，不需要与教程相同。
 
 ## 10. 重新安装、卸载和清理缓存
 
